@@ -1,0 +1,57 @@
+.footer {
+  display: flex;
+  flex-direction: row;
+  align-content: flex-end;
+  position: relative;
+  top: 550px;
+  margin-left: 20px;
+  margin-right: 120px;
+  font-size: 18px;
+  font-family: Nunito Sans;
+  font-style: normal;
+}
+
+.grid img {
+  height: 100px;
+  width: 100px;
+}
+
+.grid {
+  display: flex;
+  justify-content: space-around;
+}
+
+.grid div:first-child {
+  margin-left: 25%;
+}
+
+.grid div:last-child {
+  margin-right: 25%;
+}
+
+.grid div {
+  display: grid;
+  justify-items: center;
+  justify-content: space-between;
+  position: relative;
+  grid-template-columns: min-content;
+  border: black solid 1px;
+  background-attachment: fixed;
+  border-radius: 10px;
+  font-size: 20px;
+  background-color: lightgray;
+  grid-row-gap: 20px;
+}
+
+.grid div div {
+  border: 0px;
+}
+
+h1 {
+  border: 0px;
+}
+
+#size {
+  font-size: 20px;
+  font-weight: bold;
+}
